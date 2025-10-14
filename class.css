@@ -2,11 +2,11 @@ div{background-color: lightblue;}
 table{border:1px solid black;}
 th{border: 1px solid black;}
 td{border: 1px solid black;}
-tr{ border: 1px solid black;}
+tr{ border: 4px solid black;}
 .mat{background-color: red;}
 .eng{background-color: blue;}
 .his{background-color: orange;}
 .ar{background-color: purple;}
 .chm{background-color: green;}
 .phy{background-color: teal;}
-.bio{background-color: gray;}
+.bio{background-color: rgb(114, 102, 102);}
