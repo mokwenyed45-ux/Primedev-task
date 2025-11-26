@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Product review</h1>
+
+    <form>
+        <fieldset>
+            <legend>personal details</legend>
+            <label>Full name</label>
+            <input type="text"  name="fullname" required>
+            <br>
+            <label>Email</label>
+            <input type="email" name="email" required>
+            <br>
+            <label>Mobile</label>
+            <input type="number" name="Mobile" required>
+            <br>
+            <label>upload photo</label>
+            <input type="file" name="photo" accept="images/png"> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Satifaction rates</legend>
+
+            <p>how often do you use the  product</p>
+            <label><input type="radio" value="daily">daily</label>
+           <label><input type="radio" value="weekly">weekly</label>
+            <label><input type="radio" value="monthly">monthly</label>
+            <br>
+            <p>How satisfied are you with the user interface</p>
+            <label><input type="radio" value="unsatisfied">unsatisfied</label>
+           <label><input type="radio" value="neutral">neutral</label>
+            <label><input type="radio" value="satisfied">satisfied</label>
+            <br>
+            <p>what area does it perform the most</p>
+            <label><input type="checkbox" value="technology" >technology</label>
+            <label><input type="checkbox" value="Health">Health</label>
+            <label><input type="checkbox" value="business">business</label>
+            <br>
+            <p>how you got to know abouth the product</p>
+            <label><input type="checkbox" value="Radio">Radio</label>
+            <label><input type="checkbox" value="television">television</label>
+            <label><input type="checkbox" value="newspaper">newspaper</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>FeedbackandComments</legend>
+
+            <label>best model when is comes to speed</label>
+            <select>
+                <optgroup label="model name">
+                    <option value="bwx12">bwx12</option>
+                    <option value="ax22">ax22</option>
+                    <option value="meg5">meg5</option>
+                    <option value="xmax69">xmax69</option>
+                    <option value="turbo90">turbo90</option>
+                    <option value="range6">range6</option>
+                    <option value="hpzoom2">hpzoom2</option>
+                    <option value="bladerunxx0">bladerunxx0</option>
+                    <option value="bht42">bht42</option>
+                    <option value="kkk230">kkk230</option> 
+                </optgroup>
+            </select>
+            <br/>
+
+            <label>what makes the best model</label>
+                <select multiple size="3">
+                    <option value="speed">speed</option>
+                    <option value="battery">battery</option>
+                    <option value="quickcharge">quickcharge</option>
+                    <option value="percision">percision</option>
+                    <option value="accuracy">accuracy</option> 
+                </select>
+
+                <br/>
+                
+                <label>Any other comments</label>
+                <textarea cols="40" rows="4" placeholder="write your feed back here...."></textarea>           
+                </fieldset>
+
+
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+    <button type="button" >Regular Button</button>
+        
+    </form>
+</body>
+</html>
